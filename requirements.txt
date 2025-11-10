@@ -1,0 +1,14 @@
+# Core ML and Data Libraries
+scikit-learn==1.5.2
+pandas==2.2.3
+numpy==1.26.4
+
+# For Tamil input/output interface (if used in Streamlit)
+streamlit==1.39.0
+
+# Optional utilities
+matplotlib==3.9.2
+plotly==5.24.1
+
+# For environment compatibility
+joblib==1.4.2
