@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-tree_age_iks_300_tamil.py
-AI மர வகை மற்றும் வயது கணிப்பு (300 இனியோட்டப் பெயர்கள்) + IKS (தமிழ்) இணைப்பு
-Author: Generated for user
-"""
 
 import streamlit as st
 import os
@@ -13,7 +7,25 @@ import math
 import numpy as np
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
+import streamlit as st
+import pandas as pd
+import numpy as np
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import cross_val_score, KFold
+import csv
+import webbrowser
+import os
+import base64
+from io import BytesIO
+from reportlab.lib.pagesizes import letter
+from reportlab.pdfgen import canvas
 
+
+"""
+tree_age_iks_300_tamil.py
+AI மர வகை மற்றும் வயது கணிப்பு (300 இனியோட்டப் பெயர்கள்) + IKS (தமிழ்) இணைப்பு
+Author: Generated for user
+"""
 # ----------------------------
 # 1) 300 species list (primary list)
 # ----------------------------
@@ -351,3 +363,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("\nநீங்கள் செயலியை நிறுத்தினீர்கள். வணக்கம்!")
         sys.exit(0)
+
