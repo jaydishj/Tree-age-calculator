@@ -16,9 +16,7 @@ import csv
 import webbrowser
 import os
 import base64
-from io import BytesIO
-from reportlab.lib.pagesizes import letter
-from reportlab.pdfgen import canvas
+
 
 
 """
@@ -363,4 +361,5 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("\nநீங்கள் செயலியை நிறுத்தினீர்கள். வணக்கம்!")
         sys.exit(0)
+
 
